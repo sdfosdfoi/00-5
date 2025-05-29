@@ -129,28 +129,6 @@ const LoginPage: React.FC = () => {
         </button>
       </form>
       
-      <div className="mt-8 space-y-4">
-        <div className="text-center text-sm text-gray-600">
-          Для демонстрации вы можете использовать:
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="border rounded-md p-3">
-            <div className="font-medium">Пользователь:</div>
-            <div className="text-sm text-gray-600 mt-1">
-              <div>Email: user@example.com</div>
-              <div>Пароль: password</div>
-            </div>
-          </div>
-          <div className="border rounded-md p-3">
-            <div className="font-medium">Администратор:</div>
-            <div className="text-sm text-gray-600 mt-1">
-              <div>Email: admin@example.com</div>
-              <div>Пароль: password</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
       <div className="mt-6 text-center">
         <p className="text-gray-600">
           Еще нет аккаунта?{' '}
